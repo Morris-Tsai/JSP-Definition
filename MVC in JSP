@@ -1,0 +1,12 @@
+P339
+MVC(Model,Controller,View)代表模型視圖和控制器。他是一種將業務邏輯，表示邏輯和資料分開的設計模式。
+
+Controller充當View和Model之間的介面。控制器攔截所有傳入的請求。
+
+Model表示應用程序的狀態，即資料。他也可以有業務邏輯
+
+View表示Presentation即UI(用戶介面)。
+
+MVC(模型2)架構優勢
+1.導航控制是集中的
+2.易於維護大型應用程序
