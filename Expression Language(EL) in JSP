@@ -1,0 +1,20 @@
+p332
+表達式語言(EL)可以簡化存儲在Java Bean的成分資料的可訪問性，和其他的目的一樣請求、會話、應用程序等。
+EL中有許多隱含的物件，運算符和保留字。
+語法:
+${expression}
+${param.name} === <%= request.getParameter("name"); %>
+${sessionScope.user} === session.getAttribute("user");
+
+優先等級:
+[] .
+()
+-(unary)not!empty
+* / div % mod
++ - (binary)
+< <= > >= lt le gt ge
+== != eq ne
+&& and
+|| or
+?:
+
