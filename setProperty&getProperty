@@ -1,0 +1,12 @@
+p320
+
+setProperty和getProperty操作標記用於使用Java Bean開發Web應用程序。
+在Web開發中，主要使用bean類，因為它是表示資料的可重用軟件元件。
+jsp:setProperty操作標記使用setter方法在bean中設置一個或多個屬性值。
+語法:
+<jsp:setProperty name="instanceOfBean" property="*" | property="propertyName" parm="parameterName" 
+                 | property="propertyName" value="{string | <%=exception%>}"
+                 
+jsp:getProperty操作標記返回屬性的值。
+語法:
+<jsp:getProperty name="instanceOfBean" property="propertyName" />
