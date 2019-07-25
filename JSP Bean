@@ -1,0 +1,16 @@
+p313
+Java Bean 是一個遵循以下約定的java類別，他應該是一個無參數的建構子。
+1.他應該是Serializable(可序列化)
+2.他應該是提供設置和獲取屬性質的方法，稱為getter和setter方法
+
+根據Java白皮書，他是一個可重用的軟件元件。bean將許多物件封裝到一個物件中，因此我們可以從多個位置訪問該物件。
+而且它提供了易於維護。
+
+jsp:useBean動作標記用於定位或實例化bean類。如果已經新增了Bean類的bean物件，則根據範圍不會新增bean。
+但是如果沒有新增bean的物件，他會實例化bean。
+
+語法:
+<jsp:useBean id="instanceName" scope="page|request|session|application"
+             class="packageName.className" type="packageName.className"
+             beanNanme="packageName.className" | <%=expression>">
+</jsp:useBean>             
